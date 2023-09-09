@@ -12,6 +12,7 @@ github:
   url:
     repositories: https://api.github.com/users/{USER_NAME}/repos
     branches: https://api.github.com/repos/{USER_NAME}/{REPO_NAME}/branches
-#    This token issued for public scope only , so that i stay it as it is
+
 #  Github gives more rate limit if we the request is authorized, so i prefered to use public scope token because of not getting rate limit error
-  bearer-token: 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
+#  Please put your public read only access token which created in github
+  bearer-token: <access_token>
